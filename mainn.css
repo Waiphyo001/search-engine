@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -76,3 +77,56 @@ h1{ text-align: center;
 .menu ul li a:hover {
     color: rgb(255, 2, 120);
 }
+
+
+.engine input[type=search]{
+    width: 400px;
+    height: 40px;
+    background:none;
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(255, 0, 98);
+    color:blue;
+    font-size: 15px;
+    font-family: cursive;
+    border-radius: 20px;
+    margin: 20px auto;
+    outline: none;
+    transition: 0.25s;
+}
+
+form.s button{
+    
+    width: 10%;
+    padding: 10px;
+    background:rgba(255, 0, 149, 0.979);
+    color:yellow;
+    font-size: 17px;
+    border: 2px solid rgb(255, 255, 120);
+    border-radius: 20px;
+    
+    cursor: pointer;
+    outline: none;
+
+}
+.engine input[type=search]:focus {
+        width: 800px;
+        font-size: 25px;
+        border-color:rgb(255, 196, 0) ;
+}
+
+
+.engine input[type=search]:hover{
+        background-color:rgba(255, 230, 0, 0.979);}
+
+form.s button:hover{
+    background:rgba(230, 0, 120, 0.979); ;
+}
+
+form.s ::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
